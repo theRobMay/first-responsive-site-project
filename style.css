@@ -30,6 +30,7 @@ body {
     justify-content: center;
     align-items: center;
     grid-row: 1/-1;
+    font-family: Helvetica, sans-serif;
 }
 .bottom-container {
     display:grid;
@@ -72,4 +73,9 @@ li {
     justify-content: center;
     color: white;
     list-style-type: none;
+    font-size: calc(.8vw + .8vh);
+    font-family: Helvetica, sans-serif;
+}
+.titleHead {
+    font-size: calc(1vw + 1vh);
 }
